@@ -1,0 +1,90 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+   background-color: hsl(30, 38%, 92%);
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    margin: 15px auto;
+    background-color: white;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.main-img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+}
+
+h1, .discount-price{  
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.main-section{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 30px;
+}
+
+.top-text{
+    letter-spacing: 6px;
+    text-transform: uppercase; 
+}
+
+.top-text, 
+p, 
+.original-price{
+    color: hsl(228, 12%, 48%)
+}
+
+button{
+    margin: 20px auto 0 auto;
+    display: block;
+    border: none;
+    background-color: #3e8268;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 123px;
+    font-weight: 700;
+}
+
+.discount-price{
+    color: #3e8268;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.original-price{
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+
+.cart-icon{
+    padding-right: 5px;
+}
+
+p{
+    line-height: 30px;
+}
